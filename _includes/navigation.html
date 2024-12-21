@@ -1,0 +1,10 @@
+<div class="nav-container">
+    <div class="nav-logo">HMONE NATHAR</div>
+    <nav>
+        <div class="nav-link">
+            {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url==item.link %} class="selected-navigation" {% endif %}>{{ item.name }}</a>
+            {% endfor %}
+        </div>
+    </nav>
+</div>
