@@ -1,0 +1,17 @@
+{
+    "social": [
+        {
+            "imageUrl": "/assets/images/behance.png",
+            "link": "https://www.behance.net/hmonenathar"
+        },
+        {
+            "imageUrl": "/assets/images/linkedin.png",
+            "link": "https://www.linkedin.com/in/hmonenathar"
+        },
+        {
+            "imageUrl": "/assets/images/whatsapp.png",
+            "link": ""
+        }
+    ],
+    "copyRight": "All rights reserved © Hmone Nathar"
+}

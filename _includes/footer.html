@@ -1,0 +1,12 @@
+<div class="footer-container">
+    <ol>
+        {% for item in site.data.footer.social %}
+        <li>
+            <a href="{{item.link}}" target="_blank">
+                <img class="footer-social-icon" src="{{item.imageUrl}}">
+            </a>
+        </li>
+        {% endfor %}
+    </ol>
+    <p>{{ site.data.footer.copyRight }}</p>
+</div>

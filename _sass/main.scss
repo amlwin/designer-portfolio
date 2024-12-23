@@ -1,6 +1,6 @@
-.content {
+body {
     padding: 120px;
-    font-family: 'Encode Sans Semi Expanded', 'sans-serif'
+    font-family: 'Encode Sans Semi Expanded', 'sans-serif';
 }
 
 .nav-container {
@@ -30,4 +30,31 @@
 
 .nav-link a.selected-navigation {
     opacity: 1;
+}
+
+.footer-social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-container ol {
+    margin: 0 auto;
+    width: fit-content;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer-container ol li {
+    display: inline-block;
+    margin: 16px;
+}
+
+.footer-container {
+    display: block; 
+}
+
+.footer-container p{
+    text-align: center;
+    opacity: 0.5;
+    margin: 35px auto;
 }
