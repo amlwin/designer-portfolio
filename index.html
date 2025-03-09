@@ -3,13 +3,6 @@ layout: default
 permalink: /
 title: Home
 ---
-<div class="overview-container">
-    {% for item in site.data.work_overview%}
-    <div class="overview-item">
-        <img src="{{item.imageURL}}" alt="{{item.projectName}}" class="overview-image">
-        <div class = "overlay-text">
-            {{item.projetName}}
-        </div>
-    </div>
-    {%endfor%}
+<div>
+    <object data="{{site.baseurl}}/assets/docs/hnt_portfolio.pdf" width="1000" height="1000" type='application/pdf'></object>
 </div>
