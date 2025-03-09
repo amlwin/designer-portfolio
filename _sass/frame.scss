@@ -1,0 +1,16 @@
+.frame-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Encode Sans Semi Expanded', 'sans-serif';
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+html,body,.frame-container{
+    height: 100%;
+    margin: 0;
+}
