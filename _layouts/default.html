@@ -3,26 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
 </head>
-
 <body>
-  <div class="frame-container">
-    <div>
-      <header>
-        {% include header.html %}
-      </header>
-    </div>
-    <div class="frame-main">
-      <main>
-        {{ content }}
-      </main>
-    </div>
-    <div>
-      <footer>
-        {% include footer.html %}
-      </footer>
-    </div>
-  </div>
+  <main>{{ content }}</main>
 </body>
 </html>
